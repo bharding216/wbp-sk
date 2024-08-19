@@ -159,11 +159,13 @@
                     Submit
                 </button>
 
+                <div class="pt-4">
                 {#if confirmationMessage}
                     <p class="confirmation">{confirmationMessage}</p>
                 {:else if errorMessage}
                     <p class="error-message">{errorMessage}</p>
                 {/if}
+                </div>
 
                 {#if isLoading}
                     <div class="spinner-border text-primary" role="status">
