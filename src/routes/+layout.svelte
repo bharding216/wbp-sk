@@ -6,7 +6,7 @@
 
 <div>
 	<Header />
-
+	
 	<main>
 		<slot />
 	</main>

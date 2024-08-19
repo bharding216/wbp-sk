@@ -4,12 +4,6 @@
 	<meta name="description" content="Our Team | Wendorf Beward & Partners" />
 </svelte:head>
 
-<style>
-    .red-background {
-        background-color: #650003;
-        color: white;
-    }
-</style>
 
 <div class="py-5 top-of-page-section-white">
     <div class="container">
@@ -57,7 +51,7 @@
     </div>
 </div>
 
-<div class="red-background">
+<div>
     <div class="container">
         <div class="row pt-5 pb-5 justify-content-center">
             <div class="col-12 mt-5">

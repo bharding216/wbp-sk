@@ -162,23 +162,15 @@
   }
 
   .shadow-btn {
-    /*The first value specifies the horizontal offset of the shadow (+/-).
-      The second value specifies the vertical offset of the shadow (+/-).
-      The third value (optional) specifies the blur radius of the shadow. Larger number is more blur.
-      The fourth value (optional) specifies the spread radius of the shadow. This makes the entire shadow larger.
-      The fifth value (optional) specifies the color of the shadow.*/
     box-shadow: 5px 5px 15px 0px black;
   }
   
-
-
   .footer {
     margin-top: auto;
     background-color: var(--primary-color);
   }
   
-  
-  
+
   /*small screen*/
   @media (max-width: 499px) {
     .container-fluid {
@@ -293,4 +285,44 @@
     .homepage-cols {
       padding: 0px 50px;
     }
+  }
+
+  #tom-dialog {
+    width: 70%; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #nancy-dialog {
+    width: 70%; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #larry-dialog {
+    width: 70%; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #suzanne-dialog {
+    width: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .close-button {
+    background-color: rgb(185, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
   }

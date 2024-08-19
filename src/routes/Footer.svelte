@@ -8,7 +8,7 @@
     <div class="py-5 text-center">
         <div class="row">
             <div class="col-12">
-                <p class="fw-bold">&copy; {currentYear} Speed Dome Engineering Inc.</p>
+                <p class="fw-bold">&copy; <span>{currentYear}</span> Wendorf Beward & Partners, Inc.</p>
             </div>
         </div>
     

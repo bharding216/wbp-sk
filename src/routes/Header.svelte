@@ -1,14 +1,14 @@
 <script>
-	import { page } from '$app/stores';
+
 </script>
 
 <header>
 	<nav class="navbar sticky-top navbar-expand-lg navbar-custom static-top">
 		<div class="container">
-			<!--Logo to the left-->
-			<a class="navbar-brand" href="/">
-				<img alt="Company logo" src="/logo.png" class="d-none d-md-inline-block align-top" width="200" height="200">
-				<img alt="Company logo" src="/logo.png" class="d-md-none d-inline-block align-top" width="100" height="100">
+
+			<a class="navbar-brand logo-link" href="/">
+				<img src="/logo.png" 
+					width="240" height="50" class="d-inline-block align-top" alt="Wendord Beward and Partners logo.">
 			</a>
 
 			<button class="navbar-toggler" 
@@ -18,25 +18,57 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<!--Links to the right-->
-			<div class="navbar-collapse collapse mb-3" id="navbarSupportedContent">
+
+			<div class="navbar-collapse collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto me-5">
-					<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined} class="nav-item">
-						<a href="/about" class="nav-link">About</a>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" 
+						href="/our-expertise"
+						id="navbarDropdownMenuLink"
+						role="button"
+						data-toggle="dropdown" 
+						aria-haspopup="true" aria-expanded="false">
+						Our Expertise
+						</a>
+
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="/our-expertise/program-delivery">Program Delivery</a>
+							<a class="dropdown-item" href="/our-expertise/asset-management">Asset Management</a>
+							<a class="dropdown-item" href="/our-expertise/disaster-response">Disaster Response & Recovery</a>
+							<a class="dropdown-item" href="/our-expertise/performance-improvement">Performance Improvement</a>
+						</div>
 					</li>
 
-					<li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined} class="nav-item">
-						<a href="/contact" class="nav-link">Contact</a>
+
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" 
+							href="/about">
+							About
+						</a>
 					</li>
 
-					<li aria-current={$page.url.pathname === '/cart' ? 'page' : undefined} class="nav-item">
-						<a href="/cart" class="nav-link">Cart</a>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" 
+							href="/portfolio">
+							Portfolio
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" 
+							href="/contact">
+							Contact
+						</a>
 					</li>
 
 				</ul>
+
 			</div>
+
 		</div>
 	</nav>
+
 </header>
 
 <style>

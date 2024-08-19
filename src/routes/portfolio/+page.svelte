@@ -27,7 +27,7 @@
             </div>
 
             <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                <img src="/static/buildings.jpg" alt="A business meeting where a team is working to solve a complex problem."
+                <img src="/buildings.jpg" alt="A business meeting where a team is working to solve a complex problem."
                     style="max-width: 100%; max-height: 400px; height: auto;">
             </div>
         </div>
@@ -49,14 +49,14 @@
                             <p>Source: <a href="https://www.apwa.org/" target="_blank" rel="tag">American Public Works Association</a></p>
                         </div>
                         <div class="col-12 col-sm-4 d-flex align-items-center justify-content-center">
-                            <img src="/static/apwa2.jpg" alt="During construction of the theatre."
+                            <img src="/apwa2.jpg" alt="During construction of the theatre."
                             style="max-width: 100%; max-height: 350px; height: auto;">
                         </div>
                     </div>
 
                     <div class="row" data-aos="fade-up" data-aos-duration="750">
                         <div class="col-12 col-sm-4 d-flex align-items-center justify-content-center">
-                            <img src="/static/apwa3.jpg" alt="A construction plan is being created."
+                            <img src="/apwa3.jpg" alt="A construction plan is being created."
                             style="max-width: 100%; max-height: 400px; height: auto;">
                         </div>
                         <div class="col-12 col-sm-8">
@@ -85,7 +85,7 @@
                             <p>With no existing municipal or county water service available in the area, the LWSC has embarked on essential initiatives to ensure a reliable water supply. Consultants have been engaged to oversee the design and construction of 38 water wells, drawing raw, brackish water from the Sparta and Carrizo Wilcox aquifers within Webb County. These wells will be connected to a Regional Water Treatment Plant, where sophisticated Microfiltration and Reverse Osmosis (M R/O) processes will treat the groundwater.</p>
                         </div>
                         <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
-                            <img src="/static/se-legacy.jpg" alt="SE Legacy Development comprises the Legacy Water Supply Corporation."
+                            <img src="/se-legacy.jpg" alt="SE Legacy Development comprises the Legacy Water Supply Corporation."
                             style="max-width: 100%; height: auto;">
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                 <h3>Port Authority of Houston</h3>
                 <div class="row">
                     <div class="col-12 col-md-6 mb-4 mb-md-0">
-                        <img src="/static/port-auth.jpg" alt="Houston Port Authority."
+                        <img src="/port-auth.jpg" alt="Houston Port Authority."
                         style="max-width: 100%; height: auto;">
                     </div>
                     <div class="col-12 col-md-6 my-auto">

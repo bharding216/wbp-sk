@@ -56,7 +56,7 @@
             </div>
 
             <div class="col-12 col-md-6 align-items-center d-flex">
-                <img src="/static/business_team.jpg" alt="A business meeting where a team is working to solve a complex problem."
+                <img src="/business_team.jpg" alt="A business meeting where a team is working to solve a complex problem."
                     style="max-width: 100%; height: auto;">
             </div>
 
