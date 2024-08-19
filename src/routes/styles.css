@@ -10,7 +10,7 @@
   
 
   .navbar-custom {
-    background-color: var(--primary-color);
+    background-color: #e9e9e9;
   }
   
   .logo-link {
@@ -52,7 +52,7 @@
   }
 
   .top-of-page-section-primary {
-    background-color: var(--primary-color);
+    background-color: #e9e9e9;
   }
 
   .wrapper {
@@ -115,35 +115,35 @@
   
   
   #blog_link {
-    color: var(--secondary-color);
+    color: #EC1C24;;
   }
   
   #blog_link:hover {
-    color: var(--primary-color);
+    color: #e9e9e9;
   }
   
   
   
   .btn-primary {
-    background-color: var(--primary-color);
+    background-color: #e9e9e9;
     border-color: black;
     color: black;
   }
   
   .btn-primary:hover {
-    background-color: var(--secondary-color);
+    background-color: #EC1C24;;
     border-color: black;
     color: white;
   }
   
   .btn-reversed {
-    background-color: var(--secondary-color);
+    background-color: #EC1C24;;
     border-color: black;
     color: white;
   }
   
   .btn-reversed:hover {
-    background-color: var(--primary-color);
+    background-color: #e9e9e9;
     border-color: black;
     color: black;
   }
@@ -167,7 +167,7 @@
   
   .footer {
     margin-top: auto;
-    background-color: var(--primary-color);
+    background-color: #e9e9e9;
   }
   
 

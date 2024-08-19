@@ -81,7 +81,7 @@
                     <h1 style="color:black; font-weight: bold; letter-spacing: 2px;" class="pb-4">Flexible Problem-Solving: Empowering Success</h1>
                     <h4 style="color:black; font-weight: 300; letter-spacing: 1px;" class="pb-4">Tailored solutions for a changing world, leveraging decades of expertise and innovative approaches, <strong style="font-weight: bold;">Wendorf Beward & Partners</strong> is your trusted partner in achieving your goals.</h4>
                     
-                    <div class="pt-4" data-aos="fade-up" data-aos-duration="750">
+                    <div class="pt-4">
                         <a href="/our-expertise">
                             <button type="button" class="btn btn-reversed shadow-btn">Discover our expertise</button>
                         </a> 
